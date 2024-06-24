@@ -1,0 +1,129 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins', sans-serif;
+text-decoration: none;
+list-style: none;
+
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background-color: grey;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%S;
+}
+.logo {
+    font-size: 26px;
+    color: white;
+    font-weight: 500;
+    transition: unset;
+}
+.logo:hover
+{
+    color: black;
+    text-shadow: 0 0 25px orangered,
+                0 0 50px orangered;
+                transform: scale (1.1);
+}
+span {
+    color: brown;
+   
+}
+.navbar a{
+font-size: 18px;
+color: brown;
+font-weight: 600;
+margin: 0 23px;
+border-bottom: 3px solid transparent;
+
+
+}
+.navbar a:hover,
+.navbar a.active {
+    color: aqua;
+    border-bottom: 3px solid black;
+}
+.contact {
+padding: 11px 27px;
+background-color: black;
+color: white;
+border-radius: 9px;
+font-size: 20px;
+letter-spacing: 1px;
+font-weight: 800;
+
+
+}
+.contact.logo:hover {
+
+    background-color: blueviolet;
+    box-shadow: 0 0 26px blueviolet;
+    color: white;
+}
+.Home {
+    width: 1000000px;
+    min-height: 101vh;
+    background-color: rgb(216, 235, 228);
+    display:flex;
+    align-items: center;
+    gap:8em;
+    padding: 30px 12% 0;
+}
+.Home-content {
+    max-width: 700px;
+}
+
+.Home-content h4{
+    font-size: 35px;
+}
+
+.Home-content h1{
+    font-size: 24px;
+    line-height: 1.0;
+    
+}
+.Home-content p{
+    font-size: 18px;
+    margin: 2px 0 30px;
+}
+.button {
+    width:345px;
+    display:flex;
+    gap: 50px;
+}
+.button1 {
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border: 2x solid transparent;
+    border-radius: 9px;
+    font-size: 19px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.50s ease-in;
+    cursor: pointer;
+}
+.button2 {
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border: 2x solid transparent;
+    border-radius: 9px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.50s ease-in;
+    cursor: pointer;
+}
+.img-box img{
+    border-radius: 50%;
+    width: 550px;
+}
